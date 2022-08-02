@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(/assets/img/pizza12.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
+
+h1 {
+  color: rgba(0, 0, 0, 0.772);
+  
+}
+
+
+header {
+
+  text-align: center;
+  width: 100%;
+  color: beige;
+  height: 168px;
+
+
+
+}
+
+main {
+
+
+
+  background-color: rgba(255, 223, 42, 0);
+
+  border-radius: 10% / 70%;
+  margin: 29px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* lo pusimos para que el main tome la altura del dispositivo */
+}
+
+/* 
+div {
+  text-align-last: center; */
+
+
+
+.recuadro {
+
+  border: 5px solid rgba(255, 255, 255, 0.874);
+  background-color: rgba(255, 255, 255, 0.582);
+  width: 300px;
+  border-radius: 10% / 70%;
+  margin: 29px;
+
+}
+
+.logo {
+  width: 34%;
+  height: 168px;
+}
+
+.recuadro-formulario {
+  display: flex;
+  justify-content: center;
+  border-radius: 1% / 70%;
+  color: aliceblue;
+
+
+}
+
+.datos {
+  padding: 10px;
+  margin: 10px;
+  display: grid;
+}
+
+div {
+  color: rgb(0, 0, 0);
+}
+
+footer {
+  display: flex;
+  text-align: end;
+  justify-content: center;
+  background-color: rgba(13, 248, 240, 0.544);
+
+
+}
+select{
+  font-size: 1em;
+
+}
+input{
+background-color: rgba(0, 242, 255, 0.581);
+font-size: 1em;
+border-radius: 10% / 70%;
+}
+label{
+  color: rgb(113, 0, 0);
+  font-size: 2em;
+}
+.centro2{
+  font-size: 5em;
+}
